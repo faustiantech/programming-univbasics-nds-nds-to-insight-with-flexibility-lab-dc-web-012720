@@ -106,7 +106,9 @@ def movies_with_directors_set(source)
   
   i=0 
   while i < source.length do
-    result.push({ => source[1][:movies]})
+    dir_name = source[i][:name]
+    dir_film = source[i][:name]
+    results.push(movies_with_director_names(dir_name,dir_film))
     i += 1
   end
   result
