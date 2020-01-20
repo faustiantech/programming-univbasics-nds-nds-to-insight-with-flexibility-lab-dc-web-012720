@@ -101,7 +101,10 @@ def movies_with_directors_set(source)
   # to have a :director_name key added to it.
   result = []
   # input [ { :name => "name", :movies => [obj1,ob2.. ] }, {},  ]
-  # push ( []  )
+  # push ( [ source[1][:movies]   ]  )
+  
+  i=0 
+  
   
 end
 
