@@ -105,11 +105,10 @@ def movies_with_directors_set(source)
   
   i=0 
   while i < source.length do
-    source.push( 
-    
+    result.push(source[1][:movies])
     i += 1
   end
-  
+  result
 end
 
 # ----------------    End of Your Code Region --------------------
