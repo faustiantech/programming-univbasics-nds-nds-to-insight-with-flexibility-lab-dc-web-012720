@@ -99,7 +99,9 @@ def movies_with_directors_set(source)
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
-  
+  result = []
+  # input [ { :name => "name", :movies => [obj1,ob2.. ] }, {},  ]
+  # push ( [movie1,movie2,movie3]  )
   
 end
 
